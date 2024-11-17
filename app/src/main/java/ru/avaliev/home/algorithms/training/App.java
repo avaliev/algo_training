@@ -7,16 +7,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+  public String getGreeting() {
+    return "Hello World!";
+  }
 
-    public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
-	    List<Integer> list = new ArrayList<>();
-		var d = 10;
-	    list.<Integer>add(d);
-	    Object n = list.get(0);
-	    System.out.print( n );
-    }
+  public static void main(String[] args) {
+    System.out.println(new App().getGreeting());
+    List<Integer> list = new ArrayList<>();
+    var d = 10;
+    Object n = list.get(0);
+    System.out.print(n);
+  }
 }
