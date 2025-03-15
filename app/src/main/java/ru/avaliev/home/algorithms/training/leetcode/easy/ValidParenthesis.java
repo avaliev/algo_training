@@ -9,6 +9,7 @@ public class ValidParenthesis {
 
 
 		System.out.println("args = " + isValid("{({})}"));
+		System.out.println("args = " + isValid("{]"));
 	}
 
 
